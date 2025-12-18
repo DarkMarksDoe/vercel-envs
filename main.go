@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"vercelenvs/api"
+	api "vercel-envs/api"
 )
 
 func main() {
@@ -12,4 +12,3 @@ func main() {
 	log.Println("Server running on http://localhost:8080")
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
-
